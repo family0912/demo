@@ -1,0 +1,45 @@
+#include <stdio.h>
+
+int main()
+{
+     while(1)
+         {
+               int a;
+               printf("欢迎来到密码编译，请输入是否需要进行生密或解密（yes or no）\n");
+               scanf("%s",a);
+               if(a==yes)
+               int b;
+               printf("请问是进行生密（输入y）还是进行解密（输入n）\n");
+               scanf("%s",&b);
+               else if(b==y)
+               char c;
+               printf("请输入你需要生密的字母：");
+               scanf("%s",c);
+               c=getchar();
+               while(c!='\n')
+               {  if((c>='a'&&c<='z')||(c>='A' && c<='Z'))
+                    {if(c>='W'&&C<='z'||c>='w'&&c<='z')
+                         c=c-22;
+                     else c=c+4;
+                    }
+                  printf("%c",c)；
+                  c=gethar();
+               }
+               else if(b==n)
+               char c;
+               printf("请输入你需要节密的字母：");
+               c=getchar();
+               while(c!='\n')
+                {  if((c>='a'&&c<='z')||(c>='A' && c<='Z'))
+                    {if(c>='W'&&C<='z'||c>='w'&&c<='z')
+                        c=c+22;
+                     else c=c-4;
+                     }
+                   printf("%c",c);
+                   c=getchar();
+                 }
+       else  break
+           }
+            return 0;
+     }
+               
